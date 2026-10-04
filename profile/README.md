@@ -1,8 +1,9 @@
-**Deep-Learning-Profiling-Tools** is a collection of open-source tools for profiling, analyzing, debugging, and optimizing GPU and accelerator programs in AI workloads. Our projects include:
+**Deep-Learning-Profiling-Tools** is a collection of open-source tools for profiling, analyzing, debugging, and optimizing GPU and accelerator programs in AI and high-performance computing workloads. Our projects include:
 
 - **[Proton](https://github.com/triton-lang/triton/tree/main/third_party/proton)**: A lightweight, multi-level profiler for Triton that connects Python context and user annotations with GPU kernel metrics to help identify performance bottlenecks.
 - **[TileLens (formerly Triton-Viz)](https://github.com/Deep-Learning-Profiling-Tools/tilelens)**: A kernel visualization and analysis toolkit that helps developers understand tensor operations, inspect memory accesses, and detect memory-safety issues. Many debugging workflows run without requiring a GPU.
-- **[Fasten](https://github.com/Deep-Learning-Profiling-Tools/fasten)**: A library of optimized GPU segment operators that accelerates heterogeneous graph neural networks through efficient segmented matrix multiplication and integration with PyG.
 - **[TileBench](https://github.com/Deep-Learning-Profiling-Tools/Tilebench)**: An accelerator benchmarking framework for comparing kernel implementations across programming models using standardized correctness checks, timing protocols, and hardware-aware performance metrics.
+- **[HPC-Performance-AI](https://github.com/Deep-Learning-Profiling-Tools/HPC-Performance-AI)**: A reproducible benchmark suite supporting AI-driven performance prediction and optimization for HPC applications, spanning standalone GPU kernels, mini-applications, and production applications with multi-GPU execution.
 - **[PerfSkills](https://github.com/Deep-Learning-Profiling-Tools/PerfSkills)**: A collection of AI-agent skills for profiling-guided performance optimization, connecting bottleneck diagnosis with code changes, correctness validation, and measured performance improvements.
-
+- **[Triton Samples](https://github.com/Deep-Learning-Profiling-Tools/triton-samples)**: Examples covering Triton operators, compilation, and Proton profiling to support learning and experimentation with GPU kernel development.
+- **[Fasten](https://github.com/Deep-Learning-Profiling-Tools/fasten)**: A library of optimized GPU segment operators that accelerates heterogeneous graph neural networks through efficient segmented matrix multiplication and integration with PyG.
