@@ -1,8 +1,8 @@
-# Deep-Learning-Profiling-Tools
+**Deep-Learning-Profiling-Tools** is a collection of open-source tools for profiling, analyzing, debugging, and optimizing GPU and accelerator programs in AI workloads. Our projects include:
 
-  **Deep-Learning-Profiling-Tools** is a collection of program analysis tools designed for GPU kernel development in deep learning workloads. The suite currently includes one tools:
+- **[Proton](https://github.com/triton-lang/triton/tree/main/third_party/proton)**: A lightweight, multi-level profiler for Triton that connects Python context and user annotations with GPU kernel metrics to help identify performance bottlenecks.
+- **[TileLens (formerly Triton-Viz)](https://github.com/Deep-Learning-Profiling-Tools/tilelens)**: A kernel visualization and analysis toolkit that helps developers understand tensor operations, inspect memory accesses, and detect memory-safety issues. Many debugging workflows run without requiring a GPU.
+- **[Fasten](https://github.com/Deep-Learning-Profiling-Tools/fasten)**: A library of optimized GPU segment operators that accelerates heterogeneous graph neural networks through efficient segmented matrix multiplication and integration with PyG.
+- **[TileBench](https://github.com/Deep-Learning-Profiling-Tools/Tilebench)**: An accelerator benchmarking framework for comparing kernel implementations across programming models using standardized correctness checks, timing protocols, and hardware-aware performance metrics.
+- **[PerfSkills](https://github.com/Deep-Learning-Profiling-Tools/PerfSkills)**: A collection of AI-agent skills for profiling-guided performance optimization, connecting bottleneck diagnosis with code changes, correctness validation, and measured performance improvements.
 
-  - **Proton**: A multi-level adaptive profiler for Triton that provides low-overhead profiling with custom metrics and SQL-like querying across different levels of abstraction.
-  - **Triton-Viz**: A visualization and analysis toolkit for Triton that helps debug and understand kernel behavior by visualizing tensor operations and memory usage. It can run examples without requiring access to a GPU.
-
-  Together, these tools address the unique challenges of developing and optimizing GPU kernels in modern deep learning frameworks.
